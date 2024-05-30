@@ -1,0 +1,27 @@
+[
+  {
+    "intrebare": "Care dintre următoarele este lege supremă a României?",
+    "variante": ["Codul Civil", "Constituția", "Legea penală", "Codul rutier"],
+    "corect": 1
+  },
+  {
+    "intrebare": "Care dintre următoarele stabilește regulile privind moștenirea?",
+    "variante": ["Codul Civil", "Constituția", "Codul de procedură civilă", "Codul rutier"],
+    "corect": 0
+  },
+  {
+    "intrebare": "Potrivit Codului Civil, o persoană fizică dobândește capacitatea juridică deplină la vârsta de:",
+    "variante": ["14 ani", "16 ani", "18 ani", "21 ani"],
+    "corect": 2
+  },
+  {
+    "intrebare": "Potrivit Constituției, România este un stat:",
+    "variante": ["Unitar", "Federal", "Confederal", "Statal"],
+    "corect": 0
+  },
+  {
+    "intrebare": "Un contract este valabil încheiat dacă are:",
+    "variante": ["Un obiect cert", "Un consimțământ valabil exprimat", "Ambele variante de mai sus", "Niciuna din variante"],
+    "corect": 2
+  }
+]

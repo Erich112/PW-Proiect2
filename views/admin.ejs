@@ -1,0 +1,17 @@
+<% let user = username 
+let products = shop
+let rol = role
+if (rol == 'ADMIN') {%>
+    
+    <p>Buna ziua sefu, <%=user%></p>
+    <form action="/admin" method="POST">
+    <label class="raspuns" for="newprodusname">Nume produs:</label>
+    <input type="text" id="newprodusname" name="newprodusname" /><br />
+    <label class="raspuns" for="newprodusqty">Stoc:</label>
+    <input type="text" id="newprodusqty" name="newprodusqty" /><br />
+    <input type="submit" value="Adaugă produs" />
+</form>
+<% } else {%>
+    <p>Nu ai voie aici!</p>
+    <a href="/">Înapoi acasă</a>
+    <%}%>

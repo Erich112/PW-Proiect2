@@ -1,0 +1,45 @@
+h1 {
+    color: #ffd900;
+}
+
+p {
+    color: rgb(255, 235, 138);
+}
+
+body {
+    background-color: #3f1000;
+}
+
+a:link {
+    color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00ad0e;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff00ff;
+}
+
+/* selected link */
+a:active {
+    color: #0000ff;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #ff5500;
+    padding: 10px;
+    width: 35%;
+}
+
+span {
+    color: #ffd900
+}
+
+.raspuns {
+    color: #ff5500;
+}
