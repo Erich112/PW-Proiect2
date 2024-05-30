@@ -1,0 +1,19 @@
+<% let q = intrebari; let r = raspunsuri;
+if (q.length != r.length) {%>
+<p>Nu s-au trimis toate raspunsurile, mergi inapoi si trimite-le pe toate</p>
+<% }
+else { 
+  for(let i=0;i<q.length;++i){%>
+  <div>
+    <p><%=(i+1)%>.<%=q[i].intrebare%></p>
+    <p><%=q[i].variante[r[i].raspuns]%></p>
+    <% if (r[i].raspuns == q[i].corect){
+      var caracter = "✔️";
+    }
+    else {
+      caracter = "❌";
+    } %>
+  <p><%=caracter%></p>
+  <br>
+  </div>
+  <% }} %>

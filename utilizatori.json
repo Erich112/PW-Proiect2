@@ -1,0 +1,14 @@
+[
+  {
+    "utilizator": "admin",
+    "nume" : "adminName",
+    "parola": "admin",
+    "rol" : "ADMIN"
+  },
+  {
+    "utilizator": "test",
+    "nume" : "testName",
+    "parola": "test",
+    "rol":"USER"
+  }
+]

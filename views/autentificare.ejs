@@ -1,0 +1,12 @@
+<%let redirectMessage = message
+if (redirectMessage != '' && redirectMessage != undefined) {
+%>
+<p><%=message%>!</p>
+<%}%>
+<form action="/verificare-autentificare" method="POST">
+    <label class="raspuns" for="fusername">Nume utilizator:</label>
+    <input type="text" id="fusername" name="fusername" /><br />
+    <label class="raspuns" for="fpwd">Parolă:</label>
+    <input type="password" id="fpwd" name="fpwd" /><br />
+    <input type="submit" value="Autentificare" />
+</form>

@@ -1,0 +1,33 @@
+{
+  "name": "proiect2",
+  "version": "1.0.0",
+  "description": "proiect-2-PW",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDR-2023-2024/proiect-2-Erich112.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Lemny Erich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDR-2023-2024/proiect-2-Erich112/issues"
+  },
+  "homepage": "https://github.com/HDR-2023-2024/proiect-2-Erich112#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "ejs-lint": "^2.0.0",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "mysql": "^2.18.1",
+    "oracledb": "^6.5.0"
+  }
+}

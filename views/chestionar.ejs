@@ -1,0 +1,16 @@
+<form action="/rezultat-chestionar" method="POST">
+    <% let q = intrebari;
+    for(let i=0;i<q.length;++i){%>
+        <div>
+            <p class="raspuns"><%=(i+1)%>.<%=q[i].intrebare%></p>
+        <% let v=q[i].variante;
+        for(let j=0;j<v.length;++j){
+            %>
+<input class="raspuns" type="radio" name="Întrebarea <%=i+1%>" value="<%=j%>"><%=v[j]%>
+<br>    
+<%}%>
+        </div>
+        <%}%>
+        <br> 
+        <input type="submit" value="Submit">
+</form>

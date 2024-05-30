@@ -1,0 +1,20 @@
+<%
+let products = shop
+let loggedin = false
+if(user != undefined){
+    loggedin = true; %>
+    <p>Bine ai venit, <%=user.nume%></p> <a href="/log-out">Log-out</a>
+<% if (user.rol == 'ADMIN') {
+    loggedin = true; %>
+    <p>Buna ziua sefu, <%=user.nume%></p>
+    <a href="/creare-bd">Creare BD</a> <a href="/inserare-bd">Incarcare BD</a>
+<% }} else { %>
+    <a href="/autentificare">Autentificare</a>
+<% }
+if(products != undefined) {
+for (let i = 0; i < products.length; i++) {%>
+    <p><%=products[i]['Nume']%>, <%=products[i]['Stoc']%> rămas în stoc</p>
+    <% if (loggedin == true) { %>
+        <a href="/adaugare_cos?id=<%=products[i]['ID']%>">Adauga</a>
+<% }}} %>
+<a href="/vizualizare-cos">Vezi cosul</a>
